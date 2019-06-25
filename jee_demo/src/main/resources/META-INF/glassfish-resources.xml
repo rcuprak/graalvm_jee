@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN" "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+    <jdbc-connection-pool name="testPool" res-type="javax.sql.DataSource"
+                          datasource-classname="org.postgresql.ds.PGSimpleDataSource">
+        <property name="URL" value="jdbc:postgresql://localhost/test-security"/>
+        <property name="User" value="ctjava"/>
+        <property name="Password" value="macworld2009!"/>
+    </jdbc-connection-pool>
+    <jdbc-resource pool-name="testPool" jndi-name="jdbc/demo"/>
+</resources>

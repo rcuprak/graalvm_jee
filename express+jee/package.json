@@ -1,0 +1,11 @@
+{
+  "name": "ExpressJakartaEE",
+  "version": "1.0.0",
+  "description": "Express Demo",
+  "main": "server.js",
+  "author": "Ryan Cuprank",
+  "license": "Universal Permissive License (UPL)",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
