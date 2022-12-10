@@ -6,6 +6,6 @@
   "author": "Ryan Cuprank",
   "license": "Universal Permissive License (UPL)",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
